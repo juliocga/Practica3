@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.juliocgutierrez.barranca.InfoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/barranca"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/bandera">
+
+        </ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:onClick="onMapa"
+            android:text="@string/mapa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="@string/informacion"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

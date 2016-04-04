@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.juliocgutierrez.barranca.BaresActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/sangabriel"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/gabriel">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:text="@string/gabriel"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/cucaracho"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/cucaracho">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/cucarachoinfo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/sexy"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sexy">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/sexyinfo"/>
+
+    </LinearLayout>
+
+</ScrollView>

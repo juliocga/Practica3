@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.juliocgutierrez.barranca.MenuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/barranca"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+                android:onClick="ondemo"
+                android:background="@drawable/bandera"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="@string/demografia"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+                android:onClick="onpubli"
+                android:background="@drawable/fondo2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="@string/publicidad"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+                android:onClick="onhoteles"
+                android:background="@drawable/pipaton"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="@string/hoteles"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+                android:onClick="onbares"
+                android:background="@drawable/party"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="@string/bares"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+                android:onClick="onsitios"
+                android:background="@drawable/cienega"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="@string/sitios"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
