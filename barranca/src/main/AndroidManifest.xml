@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HotelesActivity"></activity>
+        <activity android:name=".HotelesActivity" />
         <activity android:name=".BaresActivity" />
         <activity android:name=".SitiosActivity" />
         <activity android:name=".InfoActivity" />
@@ -38,10 +38,11 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-         <activity
-        android:name=".MapsActivity"
-        android:label="@string/title_activity_maps"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AcercaActivity"></activity>
     </application>
 
 </manifest>

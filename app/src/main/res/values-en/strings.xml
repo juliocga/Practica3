@@ -1,0 +1,14 @@
+<resources>
+
+        <string name="app_name">NotasApp</string>
+        <string name="exposiciones">Expositions:</string>
+        <string name="practicas">Practices:</string>
+        <string name="proyecto">Projec:</string>
+        <string name="calcular">Calcuate</string>
+        <string name="notaFinal">Final note:</string>
+        <string name="titulo">Percentages (%)</string>
+        <string name="guardar">Save</string>
+        <string name="configurar">Settings</string>
+        <string name="borrar">Delete</string>
+
+</resources>
